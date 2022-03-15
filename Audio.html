@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <style type="text/css">
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        }
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('Pure Lust.jpg');
+
+    align-items: center;
+    min-height: 100vh;
+}
+.player{
+    position: absolute;
+    width: 350px;
+    background: #ffff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.5);
+}
+.player.imgbox{
+    position: relative;
+   
+}
+.player.imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+}
+.player audio{
+    width: 100%;
+    outline: none;
+}
+footer{
+    color:red;
+    margin-left: 120px;
+}
+    </style>
+</head>
+<div class="player">
+    <div class="imgbox">
+        <img src="only me.jpg"alt="only"height="400"width="350"/>
+        </div>
+<audio src="remix.mp3"type="audio/mp3"controls></audio>
+
+<footer>@Music Player</footer>
+
+</body>
+</html>
+<script>
+    alert("Enjoy music");
+    
+</script>
